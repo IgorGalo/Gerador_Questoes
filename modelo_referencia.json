@@ -1,0 +1,17 @@
+{
+  "_instrucoes": "Um item por texto. Questões escritas e revisadas à mão. Fonte e licença obrigatórias (Wikilivros: CC BY-SA).",
+  "textos": [
+    {
+      "id": "texto_01",
+      "titulo": "TÍTULO DO CAPÍTULO",
+      "fonte_url": "https://pt.wikibooks.org/wiki/...",
+      "licenca": "CC BY-SA 4.0",
+      "texto": "COLE AQUI UM TRECHO DE 1500 A 4000 CARACTERES",
+      "questoes_referencia": [
+        {"tipo": "multipla_escolha", "enunciado": "...", "alternativas": ["...", "...", "...", "..."], "resposta_correta": 0, "explicacao": "..."},
+        {"tipo": "verdadeiro_falso", "enunciado": "...", "resposta_correta": true, "explicacao": "..."},
+        {"tipo": "resposta_curta", "enunciado": "...", "resposta_correta": "...", "explicacao": "..."}
+      ]
+    }
+  ]
+}

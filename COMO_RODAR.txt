@@ -1,0 +1,35 @@
+COMO RODAR O GERADOR DE QUESTOES (TODA VEZ)
+=============================================
+
+1. Abra o terminal do Ubuntu (WSL).
+
+2. Ative o ambiente virtual:
+
+   source ~/venv_trab2/bin/activate
+
+   (o inicio da linha do terminal deve mostrar "(venv_trab2)")
+
+3. Va para a pasta do projeto:
+
+   cd /mnt/c/Users/Cliente/OneDrive/UFSJ/IA/Trab2
+
+4. Inicie o app:
+
+   python -m streamlit run app.py
+
+5. Abra no navegador do Windows o endereco mostrado no terminal
+   (normalmente http://localhost:8501).
+
+6. Para parar o app: volte ao terminal e aperte Ctrl + C.
+
+
+OBSERVACOES
+-----------
+- Nao use "python app.py". O app so funciona com "streamlit run".
+- Se aparecer "No module named streamlit", o ambiente nao foi ativado
+  (repita o passo 2).
+- Enquanto nao existir o arquivo gerador.py (Parte 1), o app mostra um aviso
+  amarelo e usa questoes de exemplo (gerador_mock.py).
+- Quando a Parte 1 estiver pronta, instalar no mesmo ambiente:
+
+   python -m pip install torch transformers
